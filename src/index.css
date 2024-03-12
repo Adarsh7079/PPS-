@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+	
+
+	/* index.css or App.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.item.activeIcon{
+	@apply hidden;
+}
+.item.active.activeIcon{
+	@apply hidden;
+}
+
+.item.active.inactiveIcon{
+	@apply block;
+}
