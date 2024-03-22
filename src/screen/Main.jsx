@@ -10,7 +10,7 @@ const Main = () => {
       {/* second section  */}
       <section className=" bg-[#fbf7f7fb] ">
        <div className=" lg:w-2/3 mx-[5%]  lg:mx-auto">
-        <div className="flex sm:flex-col lg:flex-row py-10 gap-5 pb-20">
+        <div className="flex sm:flex-col flex-wrap lg:flex-row py-10 gap-5 pb-20">
           <div className="border-[1px] rounded-lg border-gray-300 w-full lg:w-[450px]  h-[330px] py-10 bg-white">
            <Link  to="/presidentmain">
               <img
@@ -98,7 +98,7 @@ const Main = () => {
 
       {/* third  */}
       <section className=" bg-[#034a68]">
-        <div className=" mx-[17%] py-20 flex justify-between">
+        <div className=" mx-[17%] py-20 flex flex-wrap justify-between">
           <div>
             <img src="https://indianpsychiatricsociety.org/wp-content/uploads/2019/12/joinipstoday.png" alt=""
             className=" w-[450px] h-[400px]" />

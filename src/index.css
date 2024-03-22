@@ -10,6 +10,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 .item.activeIcon{
 	@apply hidden;
 }
@@ -20,3 +21,4 @@
 .item.active.inactiveIcon{
 	@apply block;
 }
+

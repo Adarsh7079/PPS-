@@ -233,7 +233,7 @@ const History = () => {
       </section>
 
       {/* Slider Pioneers */}
-      <section  className=" bg-[#ededef] py-12 flex justify-center">
+      <section  className=" bg-[#ededef] py-20 flex  justify-center">
         <div className=" w-2/3 justify-center">
         <Pioneers/>
         </div>
